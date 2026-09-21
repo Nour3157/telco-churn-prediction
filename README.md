@@ -37,3 +37,12 @@ Plots are saved to an `outputs/` folder.
 
 ## Tools
 Python, pandas, NumPy, scikit-learn, matplotlib
+
+
+also includes: 
+## Prototype: Customer Message Triage
+Sorts customer messages into categories (billing, technical,
+cancellation, general question, refund request, shipping problem) using a pretrained language model
+(zero-shot classification, Hugging Face transformers).
+Low-confidence predictions would be routed to a human.
+Next step: combine with the churn model to draft retention messages.
